@@ -5,8 +5,8 @@
 #define leftmotor2 3
 #define leftena 5
 #define rightena 6
-#define rightmotor1 7
-#define rightmotor2 8
+#define rightmotor1 8
+#define rightmotor2 7
 
 //sensor
 const int sensorpin[5] = { A6, A5, A4, A3, A2 };
@@ -14,7 +14,7 @@ uint8_t sensorvalue[5] = { 0, 0, 0, 0, 0 };
 int threshold = 200;
 
 //initialize variables
-int basespeed = 125;
+int basespeed = 100;
 int leftspeed = 0;
 int rightspeed = 0;
 
