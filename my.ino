@@ -194,7 +194,7 @@ void loop() {
   currenttime = millis();
   readsensor();
   checkstate();
-  debug();
+  //debug();
 
 
   switch (state) {
@@ -252,8 +252,8 @@ void loop() {
         rightspeed = 100;
         pullmotor();
       } else {
-        leftspeed = 70;
-        rightspeed = 70;
+        leftspeed = 20;
+        rightspeed = 20;
         cubemechanism();
         pointdetect++;
         state = NORMAL;
